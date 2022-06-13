@@ -7,6 +7,7 @@ const uppercaseEl = document.getElementById('uppercase');
 const lowercaseEl = document.getElementById('lowercase');
 const symbolsEl = document.getElementById('symbols');
 const generateEl = document.getElementById('generate');
+const clipboardEl = document.getElementById('clipboard');
 // Chrecters for Password
 const numbers = "0123456789";
 const upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -44,8 +45,12 @@ const generatePassword = () => {
 }
 // Showing password
 generateEl.addEventListener('click', () => {
+    password = '';
     generatePassword();
     pwEl.innerText = password;
-    password = '';
+})
+// Clipboard functionality
+clipboardEl.addEventListener('click', () => {
+    navigator.clipboard.writeText(password);
 })
 
