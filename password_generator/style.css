@@ -24,6 +24,11 @@ section {
   justify-content: space-around;
 }
 
+#pw {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
 #form {
   display: flex;
   flex-direction: column;
@@ -44,6 +49,7 @@ section button {
 }
 
 section button:hover {
+  background-image: linear-gradient(to right, #ff456a, #4d6aff);
   position: relative;
-  top: -1px;
+  top: -1.5px;
 }
