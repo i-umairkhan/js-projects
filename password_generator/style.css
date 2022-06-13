@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form>label:not(:first-child) {
+  margin-top: .5rem;
+}
+
+section button {
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+section button:hover {
+  position: relative;
+  top: -1px;
+}
