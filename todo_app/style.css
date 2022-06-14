@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #000000, #434343);
+  font-family: "Sora", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(165, 165, 165);
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+#form {
+  margin-top: 1rem;
+}
+
+#input {
+  padding: 0.5rem;
+  border: none;
+}
+
+#input:focus {
+  outline: none;
+}
+
+#input::placeholder {
+  color: rgb(165, 165, 165);
+  font-size: smaller;
+}
+
+#list li {
+  list-style: none;
+  background-color: white;
+  color: rgb(165, 165, 165);
+  border-top: 1px solid rgb(165, 165, 165);
+  font-size: smaller;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+#list li.completed {
+  text-decoration: line-through;
+}

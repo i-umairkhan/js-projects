@@ -7,3 +7,8 @@
 
 - Generate password on user selection (numbers,lower,upper,symbols)
 - HTML CSS JS
+
+# 3 - Todo App
+
+- add todos delet todos
+- local storage
