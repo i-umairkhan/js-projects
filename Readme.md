@@ -12,3 +12,8 @@
 
 - add todos delet todos
 - local storage
+
+# 4 - Quiz app
+
+- Questions with options
+- show result
