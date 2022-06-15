@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Padauk", sans-serif;
+  background: rgb(46, 163, 217);
+  background: radial-gradient(
+    circle,
+    rgba(46, 163, 217, 1) 0%,
+    rgba(0, 132, 255, 1) 100%
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#title {
+  font-weight: 900;
+  color: white;
+}
+#quiz-container {
+  margin-top: 15px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2rem;
+  width: 350px;
+  border-radius: 7px;
+}
+.options-list li {
+  list-style: none;
+}
+.options-list li input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.options-list li label {
+  cursor: pointer;
+}
+#submit {
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(46, 163, 217);
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: rgb(27, 113, 152);
+}
